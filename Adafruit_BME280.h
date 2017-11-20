@@ -177,7 +177,7 @@ class Adafruit_BME280 {
 			 sensor_sampling pressSampling = SAMPLING_X16,
 			 sensor_sampling humSampling   = SAMPLING_X16,
 			 sensor_filter filter          = FILTER_OFF,
-			 standby_duration duration     = STANDBY_MS_0_5
+			 standby_duration duration     = STANDBY_MS_1000
 			 );
                    
         void takeForcedMeasurement();
